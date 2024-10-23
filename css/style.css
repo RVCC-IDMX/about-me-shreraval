@@ -1,0 +1,26 @@
+body{
+    font-family:Afacad;
+    background-color:#F5B9DA;
+    color:#753056
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:Open-Sans;
+    font-size:30pt;
+}
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    background: color #b87eab;
+    text-align: center;
+    padding:10px;
+}
+#hero img {
+    width:300px
+}
+
+#bio{
+    text-align: center;
+}
