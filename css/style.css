@@ -262,7 +262,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green theme */
+    background-color: #b87eab;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -303,7 +303,7 @@ button:hover {
 }
 
 .navbar-links a:hover {
-    color: #ffcccb; /* Light pink hover color */
+    color: #ffe6f0;
 }
 
 /* Mobile First */
@@ -314,7 +314,7 @@ button:hover {
 .navbar.active .navbar-links {
     display: flex;
     flex-direction: column;
-    background-color: #4CAF50;
+    background-color:#b87eab;
     position: absolute;
     top: 60px;
     right: 20px;
@@ -356,7 +356,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green theme */
+    background-color: #b87eab;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -397,7 +397,7 @@ button:hover {
 }
 
 .navbar-links a:hover {
-    color: #ffcccb; /* Light pink hover color */
+    color:#ffe6f0;
 }
 
 /* Mobile First */
@@ -408,7 +408,7 @@ button:hover {
 .navbar.active .navbar-links {
     display: flex;
     flex-direction: column;
-    background-color: #4CAF50;
+    background-color: #b87eab;
     position: absolute;
     top: 60px;
     right: 20px;
