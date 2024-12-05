@@ -445,39 +445,6 @@ button:hover {
         display: none;
     }
 }
-/* General Image Styling */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Gallery Section Specific Styling */
-#gallery img {
-    margin: 10px auto;
-    display: block;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive Design for iPhone and Smaller Screens */
-@media (max-width: 600px) {
-    #gallery img {
-        width: 90%;
-        margin: 10px auto;
-    }
-
-    #hero img {
-        width: 80px;
-    }
-
-    .logo img {
-        width: 40px;
-    }
-
-    .logo h1 {
-        font-size: 1.2rem;
-    }
-}
 
 
 
