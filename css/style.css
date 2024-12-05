@@ -152,3 +152,107 @@ section#Hobbies {
     text-align: center;
 }
 
+#contact {
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+    background-color: #F5B9DA;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #7c2d58; 
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+fieldset {
+    border: 2px dashed #F5B9DA;     border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+legend {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #b87eab
+    padding: 0 10px;
+}
+
+/* Input and Textarea Styling */
+label {
+    display: block;
+    font-weight: bold;
+    color:#7c2d58;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #B03060; 
+    outline: none;
+    box-shadow: 0 0 8px #ffe6f0;
+}
+
+/* Radio Buttons and List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Submit Button */
+button {
+    background-color:#F5B9DA
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #B03060
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #contact {
+        padding: 15px;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}

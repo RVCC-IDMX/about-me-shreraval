@@ -124,6 +124,42 @@
 
 
     </main>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form method="post" name="contact-form" netlify>
+            <fieldset>
+                <legend>Contact Form</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                
+                <label for="phone-type">Phone Type:</label>
+                <select id="phone-type" name="phone-type">
+                    <option value="">--Select Type--</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="work">Work</option>
+                    <option value="home">Home</option>
+                </select>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message here"></textarea>
+                
+                <p>Would you like a follow-up?</p>
+                <ul>
+                    <li><label><input type="radio" name="followup" value="yes"> Yes</label></li>
+                    <li><label><input type="radio" name="followup" value="no"> No</label></li>
+                </ul>
+                
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>    
 
     <footer>
         © 2024 Shreya Raval
